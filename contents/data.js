@@ -75,7 +75,7 @@ var base = {
 		  "vision_txt":'"Our mission is to inspire Stockholmers to reduce their ecological footprint and the amount of waste they generate by promoting the six principles: rethink, refuse, reduce, reuse, recycle and rot."',
 		  "moto_tit":"Let's make trash a thing of the past!",
 		  "more":""},
-	"SE":{"vision_tit":"Vision, mission och mål",
+	"SE":{"vision_tit":"Vision, mission och mÃ¥l",
 		  "vision_txt":"Translation coming soon...",
 		  "team_part_tit":"Projekt deltagare",
 		  "moto_tit":"Skapa en avfallsfritt Stockholm",
