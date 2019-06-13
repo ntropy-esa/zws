@@ -6,6 +6,30 @@ orbs:
   # Declare a dependency on the welcome-orb
   welcome: circleci/welcome-orb@0.3.1
 jobs:
+  build:
+    working_directory: ~/project
+    docker:
+      - image: circleci/node:10.15.1
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - restore_cache: # special step to restore the dependency cache
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-npm-wee
+          command: npm install
+      - save_cache: # special step to save the dependency cache
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: build
+          command: npm run build
+      - persist_to_workspace:
+          root: ~/project
+          paths: .
   deploy:
     docker:
       - image: circleci/node:10.15.1
@@ -25,7 +49,13 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      - deploy
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
     triggers:
       - schedule:
           cron: "0 0 * * *"
