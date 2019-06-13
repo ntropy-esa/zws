@@ -5,7 +5,19 @@ version: 2.1
 orbs:
   # Declare a dependency on the welcome-orb
   welcome: circleci/welcome-orb@0.3.1
-
+jobs:
+  deploy:
+    docker:
+      - image: circleci/node:10.15.1
+    working_directory: ~/project
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - checkout
+      - run:
+          name: deploy_ftp
+          command: npm gulp ftp-deploy
+          
 # Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
 workflows:
   # Name the workflow "Welcome"
@@ -13,3 +25,4 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+      - deploy
