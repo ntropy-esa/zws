@@ -3,8 +3,8 @@ const fs = require('fs');
 // const Client = require('ssh2').Client;
 const glob = require('glob');
 
-const basePath = './dist';
-const destinationPath = '/www/zws/map';
+const basePath = './contents'; // path on github
+const destinationPath = '/www/zws/contents'; // path on server
 const config = {
   host: process.env.FTP_HOST,
   password: process.env.FTP_PASSWORD,
