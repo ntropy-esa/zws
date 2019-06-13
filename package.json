@@ -1,0 +1,37 @@
+{
+    "title": "zws web content",
+    "name": "zws-web-content",
+    "version": "0.1",
+    "description": "Push updates of the contents to the server",
+    "keywords": [
+    ],
+    "homepage": "",
+    "bugs": {
+        "url": "",
+        "email": ""
+    },
+    "license": "",
+    "author": "",
+    "contributors": [
+        ""
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.1",
+        "gulp-util": "^3.0.8",
+        "vinyl-ftp": "^0.6.1"
+    }
+}
