@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: deploy_ftp
-          command: npm gulp ftp-deploy
+          command: npm run ftp-deploy
           
 # Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
 workflows:
