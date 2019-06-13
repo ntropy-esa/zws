@@ -3,7 +3,7 @@
   "name": "zws-web-content",
   "version": "0.0.0",
   "description": "Push updates of the contents to the server",
-  "main": "gulpfile.js",
+  "main": "deploy.js",
   "scripts": {
     "ftp-deploy": "node deploy.js"
   },
