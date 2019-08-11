@@ -48,6 +48,7 @@ function uploadFile(file, destination) {
   return sftp.put(file, destination).then(() => {
     manageTerminatedOperation();
   }).catch((err) => {
+    console.log(`${err}`);
     manageTerminatedOperation();
   });
 }
