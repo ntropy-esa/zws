@@ -4,7 +4,7 @@ const fs = require('fs');
 const glob = require('glob');
 
 const basePath = './contents'; // path on github
-const destinationPath = '/www/zws/contents'; // path on server
+const destinationPath = '/home/ntropyovzg/www/zws/contents'; // path on server
 const config = {
   host: process.env.FTP_HOST,
   password: process.env.FTP_PASSWORD,
