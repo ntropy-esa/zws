@@ -42,24 +42,6 @@ jobs:
 
 # Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
 workflows:
-  # Name the workflow "Welcome"
-  Welcome:
-    # Run the welcome/run job in its own container
-    jobs:
-      - welcome/run
-      - build
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
-    triggers:
-      - schedule:
-          cron: "0 0 * * 1"
-          filters:
-            branches:
-              only: master
   OnPush:
     # Run the jobs without trigger mean on every git push
     jobs:
