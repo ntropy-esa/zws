@@ -3,7 +3,8 @@
 	// {"name"} to retrive with .name 
 var projects = [
 	{"EN":{"title":"Bring Your Own - BYO",
-		   "description":"The BYO group spots zero-waste friendly shops in Stockholm area and promotes their engagement. With the distribution of labels, we make it easy for you to find these shops!",
+		   "description":"The BYO group spots zero-waste friendly shops in Stockholm area and promotes their engagement. With the distribution of labels, we make it easy for you to find these shops! 
+	       			<br>Resources: <a href="https://drive.google.com/file/d/1Z3e0odXdHBBKEFTUdB7Yf7GbHxiqHAur">Shop guide</a> & <a href="https://drive.google.com/file/d/1gJlsPcH0R7_d6QeizM6FBQz_O7S6KbZa">Ambassador guide</a> ",
 		   "more":""
 		  },
 	 "SE":{"title":"Bring Your Own - BYO",
@@ -76,7 +77,7 @@ var base = {
 		  "moto_tit":"Let's make trash a thing of the past!",
 		  "sixRs":'<img src="img/6r.png" alt="Six R\'s" class="sixRs" />',
 		  "more":""},
-	"SE":{"vision_tit":"Vision, mission och mål",
+	"SE":{"vision_tit":"Vision, mission och mÃ¥l",
 		  "vision_txt":"Translation coming soon...",
 		  "team_part_tit":"Projekt deltagare",
 		  "moto_tit":"Skapa en avfallsfritt Stockholm",                    
