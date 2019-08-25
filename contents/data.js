@@ -3,12 +3,11 @@
 	// {"name"} to retrive with .name 
 var projects = [
 	{"EN":{"title":"Bring Your Own - BYO",
-		   "description":"The BYO group spots zero-waste friendly shops in Stockholm area and promotes their engagement. With the distribution of labels, we make it easy for you to find these shops! 
-	       			<br>Resources: <a href="https://drive.google.com/file/d/1Z3e0odXdHBBKEFTUdB7Yf7GbHxiqHAur">Shop guide</a> & <a href="https://drive.google.com/file/d/1gJlsPcH0R7_d6QeizM6FBQz_O7S6KbZa">Ambassador guide</a> ",
+		   "description":"The BYO group spots zero-waste friendly shops in Stockholm area and promotes their engagement. With the distribution of labels, we make it easy for you to find these shops! <br>Resources: <a href="https://drive.google.com/file/d/1Z3e0odXdHBBKEFTUdB7Yf7GbHxiqHAur">Shop guide</a> & <a href="https://drive.google.com/file/d/1gJlsPcH0R7_d6QeizM6FBQz_O7S6KbZa">Ambassador guide</a> ",
 		   "more":""
 		  },
 	 "SE":{"title":"Bring Your Own - BYO",
-		   "description":"The BYO group selects zero-waste friendly shops in Stockholm and promotes their engagement. With the distribution a distinctive label and the map below, we make it easy for you to find these shops!",
+		   "description":"The BYO group selects zero-waste friendly shops in Stockholm and promotes their engagement. With the distribution a distinctive label and the map below, we make it easy for you to find these shops! <br>Resources: <a href="https://drive.google.com/file/d/1Z3e0odXdHBBKEFTUdB7Yf7GbHxiqHAur">Shop guide</a> & <a href="https://drive.google.com/file/d/1gJlsPcH0R7_d6QeizM6FBQz_O7S6KbZa">Ambassador guide</a> ",
 		   "more":""
 		},
 	"src":"img/bg-showcase-2.jpg",
