@@ -79,7 +79,7 @@ var base = {
 	"SE":{"vision_tit":"Vision, mission och mål",
 		  "vision_txt":"Translation coming soon...",
 		  "team_part_tit":"Projekt deltagare",
-		  "moto_tit":"Skapa en avfallsfritt Stockholm",                    
+		  "moto_tit":"Skapa ett avfallsfritt Stockholm",                    
 		  "sixRs":'<img src="img/6r.png" alt="Six R\'s" class="sixRs" />',
 		  "more":""
 		  }
