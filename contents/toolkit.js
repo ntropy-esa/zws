@@ -25,7 +25,21 @@ var myDivaExport =[
 	"author":[{"family":"ZWS","given":""}],
 	"abstract":"A short presentation of the Bring Your Own campaing.",
 	"published":[{"raw":"2019-07-10T17:25:04.217+02:00"}],
-	"URL":"https://drive.google.com/file/d/1Qe6C47Rydl07l4L3_95rS1jJWKIT3S-_"}	
+	"URL":"https://drive.google.com/file/d/1Qe6C47Rydl07l4L3_95rS1jJWKIT3S-_"},
+
+	{"title":"Information Meeting - Lecture series",
+	"language":"en",
+	"author":[{"family":"ZWS","given":""}],
+	"abstract":"Four mini lectures we gave at our first information meeting.",
+	"published":[{"raw":"2020-03-07T17:25:04.217+02:00"}],
+	"URL":"https://drive.google.com/file/d/1CMymNQqn_1xmuJMCNT_XvbVfcKWJ3Rz8"},
+
+	{"title":"Information Meeting - Join a working group",
+	"language":"en",
+	"author":[{"family":"ZWS","given":""}],
+	"abstract":"Presentation of all our working group at our first information meeting.",
+	"published":[{"raw":"2020-03-07T17:25:04.217+02:00"}],
+	"URL":"https://drive.google.com/file/d/1F0fgx5qAG2chJlBaAeukNTlaZtn8gUey"}	
 	
 	]
     
